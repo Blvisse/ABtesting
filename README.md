@@ -1,6 +1,6 @@
 # A/Btesting
 ## Summary
-A/B Testing is a way to compare two versions of a product to figure out which is better. Follow this link to better understand A/B Testing https://hbr.org/2017/06/a-refresher-on-ab-testing.
+A/B Testing is a way to compare two versions of a product to figure out which is better.To geain more knowledge on how A/B testing works you can review this article by Amy Gallo on the Harvard Businss Review :https://hbr.org/2017/06/a-refresher-on-ab-testing.
 
 ## Background
 
