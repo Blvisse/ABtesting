@@ -1,0 +1,4 @@
+2021-07-21 10:10:11,130 - root - DEBUG - Initializing Class
+2021-07-21 10:10:11,130 - root - INFO - Successfuly initialized class 
+2021-07-21 10:10:11,130 - root - DEBUG - Reading CSV File
+2021-07-21 10:10:11,134 - root - ERROR - Run into Error<class 'FileNotFoundError'>
