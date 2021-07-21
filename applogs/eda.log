@@ -4135,3 +4135,23 @@
 2021-07-21 23:24:54,333 - root - DEBUG - Calulating distribution of data
 2021-07-21 23:24:54,336 - root - DEBUG - Calculating positive interactions
 2021-07-21 23:24:54,337 - root - DEBUG - Calculating conversion rate
+2021-07-21 23:27:31,597 - root - INFO - Plotting histogram
+2021-07-21 23:34:03,538 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\seaborn\__init__.py
+2021-07-21 23:34:03,622 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\seaborn\categorical.py
+2021-07-21 23:37:17,870 - parso.python.diff - DEBUG - diff parser start
+2021-07-21 23:37:17,880 - parso.python.diff - DEBUG - line_lengths old: 2; new: 1
+2021-07-21 23:37:17,880 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:1]
+2021-07-21 23:37:17,881 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-21 23:37:17,881 - parso.python.diff - DEBUG - diff parser end
+2021-07-21 23:38:21,686 - root - INFO - Plotting bar graph
+2021-07-21 23:39:25,353 - root - INFO - Plotting bar graph
+2021-07-21 23:39:25,354 - root - INFO - An erro has occured
+2021-07-21 23:39:25,354 - root - ERROR - The follocing error occured <class 'ValueError'> 
+2021-07-21 23:39:36,695 - root - INFO - Plotting bar graph
+2021-07-21 23:39:57,568 - root - INFO - Plotting bar graph
+2021-07-21 23:40:10,227 - root - INFO - Plotting bar graph
+2021-07-21 23:41:29,277 - root - INFO - Plotting bar graph
+2021-07-21 23:41:29,278 - root - INFO - An erro has occured
+2021-07-21 23:41:29,278 - root - ERROR - The follocing error occured <class 'ValueError'> 
+2021-07-21 23:41:34,873 - root - INFO - Plotting bar graph
+2021-07-21 23:43:52,810 - root - INFO - Plotting bar graph
