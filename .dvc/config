@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 [core]
     remote = dvc-remote
 ['remote "dvc-remote"']
     url = /tmp/data-storage
+=======
+[core]
+    remote = dvc-remote
+['remote "dvc-remote"']
+    url = /tmp/data-storage
+>>>>>>> 2f85fbe1ee8d15e37f517169b9ec84164884b307
