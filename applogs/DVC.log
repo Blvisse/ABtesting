@@ -6,3 +6,5 @@
 2021-07-22 23:11:16,516 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\notebooks, universal_newlines=False, shell=None, istream=None)
 2021-07-22 23:11:16,575 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--progress', 'https://github.com/Blvisse/ABtesting', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmpztytrzvsdvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\notebooks, universal_newlines=True, shell=None, istream=None)
 2021-07-22 23:12:30,517 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2021-07-22 23:32:08,217 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpztytrzvsdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-22 23:32:15,186 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\blais\AppData\Local\Temp\tmpztytrzvsdvc-clone, universal_newlines=False, shell=None, istream=<valid stream>)
