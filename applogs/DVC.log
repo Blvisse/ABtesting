@@ -1,0 +1,8 @@
+2021-07-22 23:10:34,445 - root - DEBUG - Initiaizing class
+2021-07-22 23:10:40,904 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2021-07-22 23:11:16,362 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-22 23:11:16,431 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-22 23:11:16,515 - git.util - DEBUG - Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2021-07-22 23:11:16,516 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-22 23:11:16,575 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--progress', 'https://github.com/Blvisse/ABtesting', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmpztytrzvsdvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\notebooks, universal_newlines=True, shell=None, istream=None)
+2021-07-22 23:12:30,517 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
