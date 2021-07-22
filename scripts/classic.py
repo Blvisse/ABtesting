@@ -64,9 +64,9 @@ class classicalABTesting:
         summary=self.data.pivot_table(values='yes',index='experiment',aggfunc=np.sum)
         return exposed,control,noPositiveExposed,noPositiveControl,probPosExposed,probPosControl,summary
 
-    def ConditionalSPRT(self,t1,alpha=0.05,beta=0.10,stop=None):
-        x=self.convertData()[0]
-        y=self.convertData()[1]
+    def ConditionalSPRT(self,x,y,t1,alpha=0.05,beta=0.10,stop=None):
+        # x=self.convertData()[0]
+        # y=self.convertData()[1]
 
 
         if t1<=1:
