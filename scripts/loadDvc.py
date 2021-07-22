@@ -13,27 +13,27 @@ mlflow.set_experiment("data")
 
 class dvcData:
 
-    def __init__(self,path,repo):
+    def __init__(self):
         logging.debug("Initiaizing class")
-        self.path=path
+        # self.path=path
         # self.version=version
-        self.repo=repo
+        # self.repo=repo
 
-    def getData(self):
-        try:
-            data_url=dvc.api.get_url(path=self.path,repo=self.repo)
-            data=pd.read_csv(data_url)
-            mlflow.log_param("data_url",data_url)
-            mlflow.log_param("data_version",self.version)
-            mlflow.log_param("input_rows",self.data.shape[0])
-            mlflow.log_param("input_cols",self.data.shape[1])
+    def getData(self,patht,repot,version):
+        
+        data_url=dvc.api.get_url(path=patht,repo=repot,rev=version)
+        data=pd.read_csv(data_url)
+        #    mlflow.log_param("data_url",data_url)
+        #   mlflow.log_param("data_version",self.version)
+        #   mlflow.log_param("input_rows",self.data.shape[0])
+        #   mlflow.log_param("input_cols",self.data.shape[1])
 
-            return data_url
+        return data 
             
 
-        except Exception as e:
+        # except Exception as e:
 
-            logging.error("The following error occured {} ".format(e))
+        #     logging.error("The following error occured {} ".format(e))
 
 
 
@@ -44,7 +44,7 @@ class dvcData:
 # version='v1'
 
 if (__name__== '__main__'):
-    instance=dvcData('get-started/data.xml','https://github.com/iterative/dataset-registry')
-    data=instance.getData()
+    instance=dvcData()
+    data=instance.getData('data/AdSmartABdata.csv','https://github.com/Blvisse/ABtesting','v1')
     print(data)
 

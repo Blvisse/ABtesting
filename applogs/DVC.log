@@ -1,0 +1,9 @@
+2021-07-22 21:53:13,086 - root - DEBUG - Initiaizing class
+2021-07-22 21:53:13,238 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\scripts, universal_newlines=False, shell=None, istream=None)
+2021-07-22 21:53:13,356 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\scripts, universal_newlines=False, shell=None, istream=None)
+2021-07-22 21:53:13,473 - git.util - DEBUG - Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2021-07-22 21:53:13,474 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\scripts, universal_newlines=False, shell=None, istream=None)
+2021-07-22 21:53:13,532 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--branch=v1', '--depth=1', '--progress', 'https://github.com/Blvisse/ABtesting', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmpm06gstvrdvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\scripts, universal_newlines=True, shell=None, istream=None)
+2021-07-22 21:53:14,841 - git.cmd - DEBUG - AutoInterrupt wait stderr: b''
+2021-07-22 21:53:14,854 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\scripts, universal_newlines=False, shell=None, istream=None)
+2021-07-22 21:53:14,940 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--progress', 'https://github.com/Blvisse/ABtesting', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmpm06gstvrdvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\Week2\ABtesting\scripts, universal_newlines=True, shell=None, istream=None)
