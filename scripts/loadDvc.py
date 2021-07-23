@@ -19,9 +19,9 @@ class dvcData:
         # self.version=version
         # self.repo=repo
 
-    def getData(self,patht,repot):
+    def getData(self,patht,repot,version):
         
-        data_url=dvc.api.get_url(path=patht,repo=repot)
+        data_url=dvc.api.get_url(path=patht,repo=repot,rev=version)
         data=pd.read_csv(data_url)
         #    mlflow.log_param("data_url",data_url)
         #   mlflow.log_param("data_version",self.version)
