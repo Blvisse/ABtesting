@@ -16,3 +16,10 @@
 2021-07-23 00:14:01,522 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpubewls0mdvc-clone, universal_newlines=True, shell=None, istream=None)
 2021-07-23 00:19:35,977 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpubewls0mdvc-clone, universal_newlines=True, shell=None, istream=None)
 2021-07-23 07:04:14,091 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpubewls0mdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-23 07:07:07,618 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpubewls0mdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-23 07:07:09,744 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\blais\AppData\Local\Temp\tmpubewls0mdvc-clone, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-07-23 07:08:07,763 - root - DEBUG - Initiaizing class
+2021-07-23 07:08:08,727 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpubewls0mdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-23 09:34:46,206 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpubewls0mdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-23 09:35:30,311 - root - DEBUG - Initiaizing class
+2021-07-23 09:35:31,646 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpubewls0mdvc-clone, universal_newlines=True, shell=None, istream=None)
