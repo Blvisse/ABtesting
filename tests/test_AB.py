@@ -57,6 +57,7 @@ class TestsAB(unittest.TestCase):
     def test_checkNulls(self):
 
         #select column and check for nulls
+        #we select the experiment column to ensure everyone recorded was allocated 
         bdata=dvcInstance.getData('data/AdSmartABdata.csv','https://github.com/Blvisse/ABtesting','f2ee815f7d230722139cdb43b3817f44a1ce9064')
         
 
