@@ -2,12 +2,14 @@ import unittest
 import pandas as pd
 import sys,os
 
-module_path =os.path.abspath(os.path.join('..'))
-if module_path not in sys.path:
-    sys.path.append(module_path+"\\scripts")
+sys.path.append(os.path.abspath(os.path.join('../..')))
 
-if module_path not in sys.path:
-    sys.path.append(module_path+"\\model")
+# module_path =os.path.abspath(os.path.join('..'))
+# if module_path not in sys.path:
+#     sys.path.append(module_path+"\\scripts")
+
+# if module_path not in sys.path:
+#     sys.path.append(module_path+"\\model")
 
 from loadDvc import dvcData
 dvcInstance=dvcData()
