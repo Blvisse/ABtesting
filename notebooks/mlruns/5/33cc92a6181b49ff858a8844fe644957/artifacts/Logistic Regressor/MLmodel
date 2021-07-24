@@ -1,0 +1,13 @@
+artifact_path: Logistic Regressor
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.7.10
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.1
+run_id: 33cc92a6181b49ff858a8844fe644957
+utc_time_created: '2021-07-24 18:52:57.473293'

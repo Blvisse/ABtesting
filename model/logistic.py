@@ -178,7 +178,7 @@ class LR:
                 accuracy=accuracy_score(y_test,prediction)
                 f1=f1_score(y_test,prediction,average='weighted',labels=np.unique(prediction))
                 precision=precision_score(y_test,prediction)
-                print("Current Parameters: Penalty {} ---- Min_Sample_splits {} ---- max_features {} ".format(pen))
+                print("Current Parameters: Penalty {}".format(pen))
                 print("Model Metrics: Accuracy   ----,{} ----- precision {},-----f1 score {} \n".format(accuracy,precision,f1))
               
                 mlflow.log_param("penalty",pen)
