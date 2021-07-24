@@ -1,11 +1,11 @@
-2021-07-24 23:29:53,499 - root - DEBUG - Initiaizing class
-2021-07-24 23:29:53,502 - root - DEBUG - Initializing getData function
-2021-07-24 23:29:53,661 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting\tests, universal_newlines=False, shell=None, istream=None)
-2021-07-24 23:29:53,766 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting\tests, universal_newlines=False, shell=None, istream=None)
-2021-07-24 23:29:53,927 - git.util - DEBUG - Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
-2021-07-24 23:29:53,928 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting\tests, universal_newlines=False, shell=None, istream=None)
-2021-07-24 23:29:54,013 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--progress', 'https://github.com/Blvisse/ABtesting', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmphlltrh86dvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting\tests, universal_newlines=True, shell=None, istream=None)
-2021-07-24 23:30:14,166 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting, universal_newlines=False, shell=None, istream=<valid stream>)
-2021-07-24 23:30:14,428 - root - DEBUG - Initializing getData function
-2021-07-24 23:30:14,682 - root - DEBUG - Initializing getData function
-2021-07-24 23:30:15,056 - root - DEBUG - Initializing getData function
+2021-07-25 00:23:10,732 - root - DEBUG - Initiaizing class
+2021-07-25 00:23:10,736 - root - DEBUG - Initializing getData function
+2021-07-25 00:23:10,944 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting\tests, universal_newlines=False, shell=None, istream=None)
+2021-07-25 00:23:11,050 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting\tests, universal_newlines=False, shell=None, istream=None)
+2021-07-25 00:23:11,151 - git.util - DEBUG - Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2021-07-25 00:23:11,152 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting\tests, universal_newlines=False, shell=None, istream=None)
+2021-07-25 00:23:11,221 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--progress', 'https://github.com/Blvisse/ABtesting', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmp1yyjqsgpdvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting\tests, universal_newlines=True, shell=None, istream=None)
+2021-07-25 00:23:45,468 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\blais\Desktop\10-Academy\week3\ABtesting, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-07-25 00:23:46,130 - root - DEBUG - Initializing getData function
+2021-07-25 00:23:46,621 - root - DEBUG - Initializing getData function
+2021-07-25 00:23:46,900 - root - DEBUG - Initializing getData function
