@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/blais/Desktop/10-Academy/week3/ABtesting/notebooks/mlruns/7
+experiment_id: '7'
+lifecycle_stage: active
+name: Decision Tree Classifier

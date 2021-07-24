@@ -20,13 +20,17 @@ class dvcData:
         # self.repo=repo
 
     def getData(self,patht,repot,version):
+
+        logging.debug("Initializing getData function")
         
         data_url=dvc.api.get_url(path=patht,repo=repot,rev=version)
         data=pd.read_csv(data_url)
-        #    mlflow.log_param("data_url",data_url)
-        #   mlflow.log_param("data_version",self.version)
-        #   mlflow.log_param("input_rows",self.data.shape[0])
-        #   mlflow.log_param("input_cols",self.data.shape[1])
+        mlflow.log_param("data_url",data_url)
+        mlflow.log_param("data_version",version)
+        mlflow.log_param("input_rows",data.shape[0])
+        mlflow.log_param("input_cols",data.shape[1])
+
+        mlflow.end_run()
 
         return data 
             
@@ -39,12 +43,10 @@ class dvcData:
 
 
 
-# path='data/AdSmartABdata.csv'
-# repo=
-# version='v1'
+
 
 if (__name__== '__main__'):
     instance=dvcData()
-    data=instance.getData('data/AdSmartABdata.csv','https://github.com/Blvisse/ABtesting','v1')
+    data=instance.getData('data/AdSmartABdata.csv','https://github.com/Blvisse/ABtesting','cbf35f6e43a99698ba53718ed8a8c8da8f3da722')
     print(data)
 
