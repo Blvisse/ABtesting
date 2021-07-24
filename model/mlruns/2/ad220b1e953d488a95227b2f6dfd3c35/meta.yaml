@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/blais/Desktop/10-Academy/week3/ABtesting/model/mlruns/2/ad220b1e953d488a95227b2f6dfd3c35/artifacts
+end_time: 1627110939723
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: ad220b1e953d488a95227b2f6dfd3c35
+run_uuid: ad220b1e953d488a95227b2f6dfd3c35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627110939101
+status: 4
+tags: []
+user_id: blais

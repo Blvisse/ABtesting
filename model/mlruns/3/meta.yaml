@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/blais/Desktop/10-Academy/week3/ABtesting/model/mlruns/3
+experiment_id: '3'
+lifecycle_stage: active
+name: Base Linear Regressor
